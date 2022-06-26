@@ -7,7 +7,7 @@ let l = 1;
 function calc()
 {
     h = document.getElementById('h').value;
-    w = document.getElementById('l').value;
+    l = document.getElementById('l').value;
     x = document.getElementById('base').value;
 
     let withoutVat = ((+x)*(+h)*(+l)).toFixed(2);

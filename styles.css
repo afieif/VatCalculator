@@ -49,3 +49,21 @@ body{
 #h, #l{
     border-radius: 4px;
 }
+
+footer{
+    color: blueviolet;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer span{
+    margin: 5px;
+}
+
+footer :any-link{
+    color: blueviolet;
+}
