@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(2, 4, 37);
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    margin: 250px 10px;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#base{
+    border-radius: 4px;
+}
+
+.box{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
