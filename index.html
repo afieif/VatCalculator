@@ -16,14 +16,19 @@
 </head>
 <body>
    <div id="parent">
-        <input type="number" placeholder="Enter amount" id="base" onchange="calc()" style="font-size: 18pt; height: 40px; width:100%; padding: 5px;">
-        <div class="box green">
-            Add Vat : 
-            <span id="add"></span>
+        <div id="size">
+            <input type="number" accept="number" placeholder="Height" id="h" onchange="calc()" style="font-size: 18pt; height: 40px; width:100px; padding: 5px;">
+            <span>X</span>
+            <input type="number" accept="number" placeholder="Length" id="l" onchange="calc()" style="font-size: 18pt; height: 40px; width:100px; padding: 5px;">
         </div>
+        <input type="number" accept="number" placeholder="Rate" id="base" onchange="calc()" style="font-size: 18pt; height: 40px; width:100%; padding: 5px;">
         <div class="box red">
-            Remove VAT : 
-            <span id="rem"></span>
+            Without VAT : 
+            <span id="woVat"></span>
+        </div>
+        <div class="box green">
+            With VAT : 
+            <span id="wVat"></span>
         </div>
     </div>
    <script src="script.js"></script>

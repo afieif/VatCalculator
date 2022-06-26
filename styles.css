@@ -30,3 +30,18 @@ body{
 .red{
     background-color: red;
 }
+
+#size{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+#size span{
+    color: aliceblue;
+    font-size: 16pt;
+    margin-top: 10px;
+}
