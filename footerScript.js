@@ -3,10 +3,10 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		if ($(window).width() + $(window).height() != _originalSize) {
 			console.log("keyboard active");
-			$(".footer").removeClass("fixed");
+			$("footer").addClass("fixed");
 		} else {
 			console.log("keyboard closed");
-			$(".footer").addClass("fixed");
+			$("footer").removeClass("fixed");
 		}
 	});
 });
