@@ -6,11 +6,11 @@ let l = 1;
 
 function calc()
 {
-    h = (+document.getElementById('h').value | 1);
-    l = (+document.getElementById('l').value | 1);
+    h = +document.getElementById('h').value==0? 1 : +document.getElementById('h').value;
+    l = +document.getElementById('l').value==0? 1 : +document.getElementById('l').value;
     x = document.getElementById('base').value;
 
-    let withoutVat = ((+x)*(+h)*(+l)).toFixed(2);
+    let withoutVat = ((x)*(h)*(l)).toFixed(2);
     let withVat = (withoutVat*115/100).toFixed(2);
 
     ele = document.getElementById('woVat');
