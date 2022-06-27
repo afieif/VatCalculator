@@ -6,8 +6,8 @@ let l = 1;
 
 function calc()
 {
-    h = document.getElementById('h').value;
-    l = document.getElementById('l').value;
+    h = (+document.getElementById('h').value | 1);
+    l = (+document.getElementById('l').value | 1);
     x = document.getElementById('base').value;
 
     let withoutVat = ((+x)*(+h)*(+l)).toFixed(2);
